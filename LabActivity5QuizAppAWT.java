@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class QuizApp extends Frame implements ActionListener {
+public class LabActivity5QuizAppAWT extends Frame implements ActionListener {
 
     // --- Data Storage ---
     String[] questions = {
@@ -35,7 +35,7 @@ public class QuizApp extends Frame implements ActionListener {
     Label feedbackLabel; // NEW: Label for displaying feedback like "Please select an answer."
 
     // --- Constructor ---
-    public QuizApp() {
+    public LabActivity5QuizAppAWT() {
         super("Quiz App"); // Set frame title as "Quiz App" based on your image
         setSize(500, 300); // Set frame dimensions
         setLayout(new BorderLayout(10, 10)); // Use BorderLayout for overall layout
