@@ -165,6 +165,6 @@ public class LabActivity5QuizAppAWT extends Frame implements ActionListener {
 
     // --- Main method to run the application ---
     public static void main(String[] args) {
-        new QuizApp();
+        new LabActivity5QuizAppAWT;
     }
     }
